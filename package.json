@@ -1,0 +1,12 @@
+{
+  "name": "video-parser-api",
+  "version": "1.0.0",
+  "description": "视频解析API服务",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["video", "parser", "api"],
+  "author": "",
+  "license": "MIT"
+}
