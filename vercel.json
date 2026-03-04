@@ -1,9 +1,16 @@
 {
-  "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
+      "source": "/api/parse",
+      "destination": "/api/parse"
+    },
+    {
+      "source": "/api/download",
+      "destination": "/api/download"
+    },
+    {
+      "source": "/api/health",
+      "destination": "/api/health"
     }
   ],
   "headers": [
