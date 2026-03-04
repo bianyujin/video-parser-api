@@ -1,6 +1,7 @@
 {
   "name": "video-parser-api",
   "version": "1.0.0",
+  "type": "module",
   "description": "视频解析API服务",
   "scripts": {
     "dev": "vercel dev",
